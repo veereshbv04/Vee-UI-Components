@@ -1,0 +1,7 @@
+
+@import url("/root.css");
+
+section{
+    padding: 1rem;
+    background-color: var(--primary-color);
+}

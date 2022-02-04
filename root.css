@@ -1,0 +1,11 @@
+:root{
+    --primary-color:rgba(20, 182, 247, 0.767);
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
