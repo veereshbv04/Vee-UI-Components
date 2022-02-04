@@ -10,3 +10,16 @@
     box-sizing: border-box;
 
 }
+
+
+.component-wrapper{
+    background-color: var(--wrapper-background-color);
+    margin: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
