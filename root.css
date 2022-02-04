@@ -1,5 +1,6 @@
 :root{
     --primary-color:rgba(20, 182, 247, 0.767);
+    --wrapper-background-color:rgb(192, 210, 228);
     scroll-behavior: smooth;
 }
 
