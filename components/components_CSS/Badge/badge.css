@@ -42,7 +42,7 @@ img{
 
 }
 
-/* ----------------------------------------Babadge styling */
+/* ----------------------------------------Badge styling */
 .badge{
     position: absolute;
     bottom: 0rem;
@@ -72,7 +72,7 @@ img{
 
 /* -------------------------------material icon styling */
 .icons{
-    font-size: 42px;
+    font-size: 3rem;
     position: relative;
     
 }
