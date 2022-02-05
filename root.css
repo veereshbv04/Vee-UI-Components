@@ -1,0 +1,33 @@
+:root{
+    --primary-color:rgba(20, 182, 247, 0.767);
+    --wrapper-background-color:rgb(170, 244, 253);
+    scroll-behavior: smooth;
+    --component-text-color : rgb(87, 72, 72);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.component-name{
+    margin: 0rem 1rem;
+    padding: 0.5rem;
+    background-color: rgb(7, 211, 247);
+    color: var(--component-text-color)
+}
+
+.component-wrapper{
+    background-color: var(--wrapper-background-color);
+    margin: 1rem;
+    margin-top: 0;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}

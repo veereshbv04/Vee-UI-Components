@@ -1,7 +1,2 @@
-body{
-    background-color: aqua;
-}
-
-.test{
-    background-color: orange;
-}
+@import url("/components/components_CSS/Avatar/avatar.css");
+@import url("/components/components_CSS/Badge/badge.css");

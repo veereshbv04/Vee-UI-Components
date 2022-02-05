@@ -1,0 +1,56 @@
+
+@import url("/root.css");
+
+.component-wrapper{
+    background-color: var(--wrapper-background-color);
+    margin: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+
+.avatar{
+    position: relative;
+
+}
+
+.avater-extra-large{
+   max-height: 15rem;
+    max-width: 15rem;
+
+}
+
+.avatar-large{
+    max-height: 12rem;
+    max-width: 12rem;
+}
+
+.avatar-medium{
+    max-height: 8rem;
+    max-width: 8rem;
+    
+}
+
+.avatar-small{
+    max-height: 5rem;
+    max-width: 5rem;
+}
+
+
+.avatar-extra-small{
+    max-height: 3rem;
+    max-width: 3rem;
+
+}
+
+
+img{
+   max-width: 100%;
+   max-height: 100%;
+    
+}
