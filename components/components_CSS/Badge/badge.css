@@ -84,11 +84,11 @@ img{
     top: 0.2rem;
     right: 0rem;
     background-color: red;
-    height: 1.5rem;
-    width: 1.5rem;
+    /* height: 1.5rem; */
+    min-width: 1.5em;
     border-radius: 15px;
     font-size: 15px;
     color: yellow;
     text-align: center;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
 }
