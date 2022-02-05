@@ -53,21 +53,21 @@ img{
     background-color: #59e627;
     height: 2rem;
     width: 2rem;
-    border-radius: 15px;
+    border-radius: 15rem;
 }
 
 .badge-small{
     background-color: red;
     height: 1rem;
     width: 1rem;
-    border-radius: 15px;
+    border-radius: 15rem;
 }
 
 .badge-extra-small{
     background-color: grey;
     height: 0.8rem;
     width: 0.8rem;
-    border-radius: 15px;
+    border-radius: 15rem;
 }
 
 /* -------------------------------material icon styling */
@@ -87,7 +87,7 @@ img{
     background-color: red;
     /* height: 1.5rem; */
     min-width: 1.5em;
-    border-radius: 15px;
+    border-radius: 15rem;
     font-size: 15px;
     color: yellow;
     text-align: center;
