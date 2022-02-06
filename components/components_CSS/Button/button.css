@@ -35,6 +35,7 @@ button:hover{
 
 .btn-disabled{
     background-color: rgb(192, 184, 184);
+    cursor: no-drop;
 }
 
 /* ------------------------------outlined button styling */
@@ -68,10 +69,12 @@ button:hover{
 .btn-disabled-outl{
     color: rgb(192, 184, 184);
     border: 2px solid rgb(192, 184, 184);
+    cursor: no-drop;
 }
 .btn-disabled-outl:hover{
     background-color: rgb(192, 184, 184);
     color: white;
+    cursor: no-drop;
 }
 
 /* -----------------------------------icon button */
@@ -98,6 +101,7 @@ button:hover{
 }
 
 .float:hover{
-    height: 3.5rem;
-    width: 3.5rem;
+    /* height: 3.5rem;
+    width: 3.5rem; */
+    transform: scale(1.2, 1.2);
 }
