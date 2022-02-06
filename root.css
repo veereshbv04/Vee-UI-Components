@@ -21,6 +21,14 @@
     color: var(--component-text-color)
 }
 
+.component-name-title{
+    background-color: rgb(44, 203, 214);
+    padding: 0 2rem;
+    border-radius: 1rem;
+    color:purple;
+    font-size: 1.6rem;
+}
+
 .component-wrapper{
     background-color: var(--wrapper-background-color);
     margin: 1rem;

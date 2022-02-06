@@ -11,13 +11,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.component-name-title{
-    background-color: rgb(44, 203, 214);
-    padding: 0 2rem;
-    border-radius: 1rem;
-    color:purple;
-    font-size: 1.6rem;
-}
 .close{
     float: right;
     padding-right : 2rem;
