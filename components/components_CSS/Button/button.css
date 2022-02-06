@@ -1,5 +1,9 @@
 @import url("/root.css");
 
+button{
+    border: none;
+}
+
 .btn{
     
     padding: 0.8rem 2.5rem;
@@ -68,3 +72,28 @@ button:hover{
     color: white;
 }
 
+.btn-icon{
+    color: grey;
+    cursor: pointer;
+}
+.btn-icon:active{
+    color: red;
+}
+
+.float{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 177, 241);
+    border-radius: 2rem;
+    transition: transform 0.2s;
+    color: white;
+    cursor: pointer;
+}
+
+.float:hover{
+    height: 3.5rem;
+    width: 3.5rem;
+}
