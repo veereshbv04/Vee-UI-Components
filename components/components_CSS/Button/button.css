@@ -30,3 +30,41 @@ button:hover{
 .btn-disabled{
     background-color: rgb(192, 184, 184);
 }
+
+
+.btn-primary-outl{
+    color:blue ;
+    border: 2px solid blue;
+}
+.btn-primary-outl:hover{
+    background-color:blue ;
+    color: white;
+}
+
+.btn-secondary-outl{
+    color: grey;
+    border: 2px solid grey;
+}
+.btn-secondary-outl:hover{
+    background-color: grey;
+    color: white;
+}
+
+.btn-danger-outl{
+    color: red;
+    border: 2px solid red;
+}
+.btn-danger-outl:hover{
+    background-color: red;
+    color: white;
+}
+
+.btn-disabled-outl{
+    color: rgb(192, 184, 184);
+    border: 2px solid rgb(192, 184, 184);
+}
+.btn-disabled-outl:hover{
+    background-color: rgb(192, 184, 184);
+    color: white;
+}
+
