@@ -1,8 +1,39 @@
 @import url("/root.css");
 @import url("../../main.css");
 
-.input-div{
+.form{
+    background-color: rgb(172, 177, 169);
+
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
+   align-items: center;
+   justify-content: center;
+
+    padding: 1.5rem 3rem;
+    max-width: 30rem;
+    border-radius: 1.5rem;
+    border: 2.5px solid blue;
+    box-shadow:5px 12px 18px rgb(56, 50, 50);
+}
+
+.input{
+    background-color: white;
+    width: 120%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 2.5px solid blue;
+}
+
+.input:focus{
+    box-shadow:10px 10px 8px var(--primary-color);
+}
+
+.input-error{
+    border-color: red;
+}
+.error-message{
+    font-weight: bold;
+    color: red;
 }
