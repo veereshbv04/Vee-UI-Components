@@ -44,6 +44,7 @@
     font-size:1rem;
     padding: 1rem;
     min-height: 6rem;
+    max-width: 90%;
     border: none;
     border-radius: 1rem;
     resize: horizontal;
