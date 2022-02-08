@@ -37,3 +37,21 @@
     font-weight: bold;
     color: red;
 }
+
+
+.textarea{
+    background-color: white;
+    font-size:1rem;
+    padding: 1rem;
+    min-height: 6rem;
+    border: none;
+    border-radius: 1rem;
+    resize: horizontal;
+
+    border-radius: 1rem;
+    border: 2.5px solid blue;
+}
+
+.textarea:focus{
+    box-shadow:10px 10px 8px var(--primary-color);
+}
