@@ -10,9 +10,6 @@ Cards with shadow
  */
 
 .card{
-    max-width: 30rem;
-    min-height: 10rem;
-
     background-color: rgb(117, 201, 250);
     padding: 10px;
     display: flex;
@@ -22,11 +19,13 @@ Cards with shadow
 }
 
 .card-horizontal{
+    max-width: 30rem;
+    min-height: 10rem;
     flex-direction: row;
     
 }
 
- img{
+ .img-horizontal{
   
      width: 40%;
      object-fit: cover;
@@ -61,10 +60,51 @@ Cards with shadow
     
  }
 
- span:hover{
+ .icon:hover{
     cursor: pointer;
  }
 
- span:active{
+ .icon:active{
      color: red;
  }
+
+ .badge{
+     position: absolute;
+     background-color: yellow;
+     float: left;
+     padding: 6px;
+     border-top-left-radius: 8px;
+     border-bottom-right-radius: 8px;
+ }
+
+
+ .card-vertical{
+     flex-direction: column;
+     max-width: 20rem;
+     min-height: 20rem;
+
+    
+ }
+
+ .img-vertical{
+    width: 100%;
+    border-radius: 8px;
+ }
+
+.shadow{
+    box-shadow: 18px 18px 8px grey;
+}
+
+.dismiss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+
+.close{
+    color:red;
+ 
+    cursor: pointer;
+    padding-left:2rem ;
+}

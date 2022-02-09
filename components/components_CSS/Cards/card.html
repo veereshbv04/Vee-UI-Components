@@ -6,26 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Component</title>
     <link href="./card.css" rel="stylesheet">
-  
+    
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <h1>Card Component</h1>
     <h2 class="component-name">Card  Components</h2>
-    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Horizontal Cards</h3>
+
+    <!-- vertical card -->
+    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Vertical Cards</h3>
     <div class="component-wrapper">
-        <div class="card card-horizontal">
-            <img src="../../assets/turtle.jpg" title="sample image" alt="sample image" >
+        <div class="card card-vertical">
+            <img class="img-vertical" src="../../assets/turtle.jpg" title="sample image" alt="sample image">
             <div class="card-content">
-                <h1 class="card-title">SaveTurtle</h1>
+                <h1 class="card-title">Save Turtle</h1>
                 <p class="card-description">Sea turtles play vital roles in the health of our oceans and on land. Each of the 7 species provides critical activities which has a domino effect on many species in the ocean and the land.</p>
                 <div class="card-footer">
-                    <span class="fa fa-heart w3-large"></span>
+                    <span class="fa fa-heart w3-large icon"></span>
                     <span class="fa fa-comment"></span>
-                    <span class="fa fa-share"></span>
+                    <span class="fa fa-share icon"></span>
                 </div>
             </div>
         </div>
+
+        <div class="card card-vertical shadow">
+            <span class="badge">active</span>
+            <img class="img-vertical" src="../../assets/turtle.jpg" title="sample image" alt="sample image">
+            <div class="card-content">
+                <h1 class="card-title">Save Turtle</h1>
+                <p class="card-description">Sea turtles play vital roles in the health of our oceans and on land. Each of the 7 species provides critical activities which has a domino effect on many species in the ocean and the land.</p>
+                <div class="card-footer">
+                    <span class="fa fa-heart w3-large icon"></span>
+                    <span class="fa fa-comment"></span>
+                    <span class="fa fa-share icon"></span>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+
+
+   <!-- horizontal cards -->
+    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Horizontal Cards</h3>
+ 
+    <div class="component-wrapper">
+        <!-- horizontal card without badge -->
+        <div class="card card-horizontal">
+            <img class="img-horizontal" src="../../assets/turtle.jpg" title="sample image" alt="sample image" >
+            <div class="card-content">
+                <h1 class="card-title">Save Turtle</h1>
+                <p class="card-description">Sea turtles play vital roles in the health of our oceans and on land. Each of the 7 species provides critical activities which has a domino effect on many species in the ocean and the land.</p>
+                <div class="card-footer">
+                    <span class="fa fa-heart w3-large icon"></span>
+                    <span class="fa fa-comment icon"></span>
+                    <span class="fa fa-share icon"></span>
+                </div>
+            </div>
+        </div>
+<!-- horizontal card with Badge on it -->
+        <div class="card card-horizontal shadow">
+            <span class="badge">active</span>
+            <img class="img-horizontal" src="../../assets/turtle.jpg" title="sample image" alt="sample image" >
+            <div class="card-content">
+                <h1 class="card-title">Save Turtle</h1>
+                <p class="card-description">Sea turtles play vital roles in the health of our oceans and on land. Each of the 7 species provides critical activities which has a domino effect on many species in the ocean and the land.</p>
+                <div class="card-footer">
+                    <span class="fa fa-heart w3-large icon"></span>
+                    <span class="fa fa-comment icon"></span>
+                    <span class="fa fa-share icon"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- text card horizontal -->
+        <div class="card card-horizontal shadow">
+            <div class="card-content">
+                <span class="dismiss">
+                    <h1 class="card-title">Save Turtle</h1>
+                    <span class="fa fa-close w3-large close"></span>
+                </span>
+                <p class="card-description">Sea turtles play vital roles in the health of our oceans and on land. Each of the 7 species provides critical activities which has a domino effect on many species in the ocean and the land.</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
 </html>
