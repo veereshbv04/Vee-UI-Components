@@ -10,16 +10,61 @@ Cards with shadow
  */
 
 .card{
-    background-color: orange;
+    max-width: 30rem;
+    min-height: 10rem;
+
+    background-color: rgb(117, 201, 250);
     padding: 10px;
     display: flex;
+    border-radius: 8px;
+    border:2px solid blue;
+
 }
 
 .card-horizontal{
+    flex-direction: row;
     
 }
 
  img{
-     width: 5rem;
-     height: 5rem;
+  
+     width: 40%;
+     object-fit: cover;
+     border-radius: 8px;
+ }
+
+ .card-content{
+     display: flex;
+     flex-direction: column;
+     padding:0rem 1rem;
+ }
+ 
+ .card-title{
+     font-size: 2rem;
+     color: blue;
+     
+ }
+
+ .card-description{
+     line-height: 1.5rem;
+     opacity: 0.8;
+     margin:  0.5rem;
+     text-align: justify;
+ }
+
+ .card-footer{
+     font-size: 1.5rem;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blue;
+    
+ }
+
+ span:hover{
+    cursor: pointer;
+ }
+
+ span:active{
+     color: red;
  }
