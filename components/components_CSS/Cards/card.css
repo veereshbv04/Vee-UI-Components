@@ -8,3 +8,18 @@ Text only cards
 Vertical/Horizontal cards
 Cards with shadow
  */
+
+.card{
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+}
+
+.card-horizontal{
+    
+}
+
+ img{
+     width: 5rem;
+     height: 5rem;
+ }
