@@ -14,9 +14,32 @@
     <h1>Card Component</h1>
     <h2 class="component-name">Card  Components</h2>
 
-    <!-- vertical card -->
+    
+
+
     <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Vertical Cards</h3>
     <div class="component-wrapper">
+        
+        <!-- card with overlay -->
+        
+        <div class="card card-vertical shadow">
+            <img class="img-vertical" id="imageDiv" src="../../assets/turtle.jpg" title="sample image" alt="sample image">
+            <div class="overlay-div" id="overlayDiv" >
+                <h1>Sign Petition</h1>
+            </div>
+            
+            <div class="card-content">
+                <h1 class="card-title">Save Turtle</h1>
+                <p class="card-description"><strong>Hover the image to see overlay effect on this card</strong></p>
+                <div class="card-footer">
+                    <span class="fa fa-heart w3-large icon"></span>
+                    <span class="fa fa-comment"></span>
+                    <span class="fa fa-share icon"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- vertical card -->
         <div class="card card-vertical">
             <img class="img-vertical" src="../../assets/turtle.jpg" title="sample image" alt="sample image">
             <div class="card-content">
@@ -29,6 +52,8 @@
                 </div>
             </div>
         </div>
+
+        
 
         <div class="card card-vertical shadow">
             <span class="badge">active</span>
@@ -94,6 +119,18 @@
 
     </div>
 
-
+<script>
+    const imageDiv = document.getElementById("imageDiv");
+    const overlayDiv = document.getElementById("overlayDiv");
+    imageDiv.addEventListener("mouseover", ()=>{
+        overlayDiv.style.display = "flex";
+        overlayDiv.style.cursor="pointer";
+        
+    })
+    imageDiv.addEventListener("mouseout", ()=>{
+        overlayDiv.style.display = "none";
+        
+    })
+</script>
 </body>
 </html>

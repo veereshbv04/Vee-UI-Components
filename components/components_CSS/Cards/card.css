@@ -15,7 +15,7 @@ Cards with shadow
     display: flex;
     border-radius: 8px;
     border:2px solid blue;
-
+    position:relative;
 }
 
 .card-horizontal{
@@ -107,4 +107,19 @@ Cards with shadow
  
     cursor: pointer;
     padding-left:2rem ;
+}
+
+.overlay-div{
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 14rem;
+    overflow-wrap: break-word;
+   font-size: 2rem;
+   padding: 1rem;
+    color: white;
+    
+    background-color: rgba(3, 37, 37, 0.336);
 }
