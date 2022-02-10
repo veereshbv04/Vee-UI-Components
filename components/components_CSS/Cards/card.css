@@ -67,7 +67,7 @@ Cards with shadow
  .icon:active{
      color: red;
  }
-
+/* 
  .badge{
      position: absolute;
      background-color: yellow;
@@ -75,7 +75,7 @@ Cards with shadow
      padding: 6px;
      border-top-left-radius: 8px;
      border-bottom-right-radius: 8px;
- }
+ } */
 
 
  .card-vertical{
