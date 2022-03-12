@@ -87,10 +87,11 @@ nav {
     height: 88%;
     overflow-y: auto;
     overflow-x: hidden;
+    font-size: 1.5rem;
 }
 
 #navbar li {
-    color: #4d4e53;
+    color: var(--nav-heading-color);
 
     border-top: 1px solid;
     border-color: rgb(151, 148, 148);
@@ -98,6 +99,11 @@ nav {
     width: 100%;
     padding: 1rem;
 
+}
+
+#navbar li:hover{
+    color: var(--primary-color);
+    background-color: var(--wrapper-background-color);
 }
 
 section {
@@ -176,3 +182,21 @@ iframe{
     padding-bottom: 5rem;
 
 }
+
+/* sssssss */
+
+.hero-heading{
+    text-align: center;
+    color: blue;
+    font-size: 2rem;
+}
+
+
+.nav-github{
+    
+    color: blue;
+    text-align: right;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
