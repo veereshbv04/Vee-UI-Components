@@ -71,6 +71,7 @@ button:hover{
     border: 2px solid rgb(192, 184, 184);
     cursor: no-drop;
 }
+
 .btn-disabled-outl:hover{
     background-color: rgb(192, 184, 184);
     color: white;

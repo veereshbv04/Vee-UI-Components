@@ -1,35 +1,74 @@
-@import url("/components/main.css");
+@import url("components/main.css");
+@import url("/root.css");
 
-:root{
-    --primary-color:rgba(20, 182, 247, 0.767);
-    scroll-behavior: smooth;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
+/* for this home page */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 body{
-    font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.main-title{
+nav{
+    background-color:rgba(215, 242, 247, 0.562);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem ;
+    color: blue;
+}
+
+.left-nav{
+    font-size: 2rem;
+}
+
+.right-nav{
+    font-size: 1.2rem;
+}
+
+li{
+    display: inline;
+    margin: 1rem;
+}
+
+.hero-img{
+    
+    padding-top: 5rem;
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero-heading{
     text-align: center;
-    padding: 1rem;
-    font-size:1.5rem;
-    background-color: aqua;
+    color: blue;
+    font-size: 3rem;
 }
 
-h1{
+.subheading{
     text-align: center;
-    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
 }
 
-section{
-    padding: 1rem;
-    background-color: var(--primary-color);
+.button-section{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    
+
+}
+
+.footer-ul{
+    text-align: center;
+    padding-bottom: 1rem;
 }

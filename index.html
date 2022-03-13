@@ -4,223 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vee UI Components</title>
-    
-    <!-- custom css -->
-    <link href="/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vee UI| Home</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="main-title">Component Library</div>
-
-<!-- ----------------------------Input Component -->
-<h1>Input Component</h1>
-<h2 class="component-name">Input Component</h2>
-
-<div class="component-wrapper">
-
-    <div class="form">
-        <textarea class="textarea" placeholder="Enter your Message here"></textarea>
-        <button class="btn btn-primary ">Send</button>
-    </div>
-
-
-    <form class="form">
-        <input class="input" placeholder="Enter Email Id" type="email">
-        <input class="input" placeholder="Enter Password" type="password">
-        <button class="btn btn-primary">Sign Up</button>
-        
-    </form>
-
-    <form class="form">
-        <span class="error-message">Either email or Password is wrong, Try again</span>
-        <input class="input input-error" placeholder="Enter Email Id" type="email">
-        <input class="input input-error" placeholder="Enter Password" type="password">
-        <button class="btn btn-disabled">Sign Up</button>
-        
-    </form>
-
-   
-
-</div>
-
-
-<!-- ----------------------------------Image Component -->
-    <h1>Image Component</h1>
-    <h2 class="component-name">Image  Components</h2>
-    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Large Image</h3>
-    <div class="component-wrapper">
-        <div class="img-container">
-            <img src="https://picsum.photos/400/200" alt="sample image" title="sample image">
-
-        </div>
-    </div>
-
-    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Medium Sized Image</h3>
-    <div class="component-wrapper">
-        <div class="img-md ">
-            <img class="img-square" src="https://picsum.photos/600" alt="sample image" title="sample image">
-        </div>
-        <div class="img-md img-round">
-            <img class="img-round" src="https://picsum.photos/600" alt="sample image" title="sample image">
-        </div>
-    </div>
-
-    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Small Sized Image</h3>
-    <div class="component-wrapper">
-        <div class="img-small ">
-            <img class="img-square" src="https://picsum.photos/600" alt="sample image" title="sample image">
-        </div>
-        <div class="img-small img-round">
-            <img class="img-round" src="https://picsum.photos/600" alt="sample image" title="sample image">
-        </div>
-    </div>
-
-    <!-- -----------------------------Alert Component -->
-    <h1>Alert Component</h1>
-    <h2 class="component-name">Alert Components</h2>
-    <div class="component-wrapper">
-
-        <div class="component-name-title">Primary Alert</div>
-        <div class="alert alert-primary1">Primary Alert : This is primary alert 1<span class="fa fa-close w3-large close"></span> </div>
-      
-        <div class="alert alert-primary2">Primary Alert : This is primary alert 2<span class="fa fa-close w3-large close"></span> </div>
-
-
-        <div class="component-name-title">Secondary Alert</div>
-        <div class="alert alert-secondary1">Secondary Alert : This is secondary alert 1<span class="fa fa-close w3-large close"></span> </div>
-      
-        <div class="alert alert-secondary2">Secondary Alert : This is secondary alert 2<span class="fa fa-close w3-large close"></span> </div>
-
-
-        <div class="component-name-title">Danger Alert</div>
-        <div class="alert alert-danger1">Danger Alert : This is danger alert 1<span class="fa fa-close w3-large close"></span> </div>
-
-        <div class="alert alert-danger2">Danger Alert : This is danger alert 2<span class="fa fa-close w3-large close"></span> </div>
-
-        <div class="component-name-title">Success Alert</div>
-        <div class="alert alert-success1">Success Alert : This is success alert 1<span class="fa fa-close w3-large close"></span> </div>
-
-        <div class="alert alert-success2">Success Alert : This is success alert 2<span class="fa fa-close w3-large close"></span> </div>
-        
-    </div>
-    
-
-    <h1>Button Component</h1>
-    <h2 class="component-name">Button  Components</h2>
-    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Solid Buttons</h3>
-    <div class="component-wrapper">
-        
-         <button class="btn btn-primary">Primary</button>
-         <button class="btn btn-secondary">Secondary</button>
-         <button class="btn btn-danger">Danger</button>
-         <button class="btn btn-disabled" disabled>Disabled</button>
-    </div>
-
-    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Outlined Buttons</h3>
-    <div class="component-wrapper">
-        
-         <button class="btn btn-primary-outl">Primary</button>
-         <button class="btn btn-secondary-outl">Secondary</button>
-         <button class="btn btn-danger-outl">Danger</button>
-         <button class="btn btn-disabled-outl" disabled>Disabled</button>
-    </div>
-
-    <h3 class="component-name" style="background-color: rgb(52, 151, 233);">Icon and Floating Buttons</h3>
-    <div class="component-wrapper">
-        
-         <button><span class="fa fa-heart w3-xxxlarge btn-icon"></span></button>
-         <button class="float"><span class="fa fa-plus w3-large btn-float"></span></button>
-         
-    </div>
-
-    <h1>Avatar Component</h1>
-
-    <h2 class="component-name">Avatars</h2>
-    <div class="component-wrapper">
-        <span class="avatar avater-extra-large">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-        </span>
-        <span class="avatar avatar-large">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-        </span>
-        <span class="avatar avatar-medium">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-        </span>
-        <span class="avatar avatar-small">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-        </span>
-        <span class="avatar avatar-extra-small">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-        </span>
-       
-    </div>
-    <iframe
-    src="https://carbon.now.sh/embed?bg=rgba%2874%2C147%2C222%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=42px&dsblur=68px&wc=true&wa=true&pv=30px&ph=62px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avater-extra-large%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-large%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-extra-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-    style="width: 800px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-    sandbox="allow-scripts allow-same-origin" >
-  </iframe>
-    
-
-
-    <h2 class="component-name">Badge on Avatars</h2>
-    <div class="component-wrapper">
-        <!-- badge on avatar -->
-        <span class="avatar avatar-medium">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-            <div class="badge badge-medium"></div>
-        </span>
-        <span class="avatar avatar-small">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-            <div class="badge badge-small"></div>
-        </span>
-        <span class="avatar avatar-extra-small">
-            <img src="/components/assets/avatar.svg" alt="an avatar image" />
-            <div class="badge badge-extra-small"></div>
-        </span>
-     
-       
-    </div>
-    <iframe
-    src="https://carbon.now.sh/embed?bg=rgba%2874%2C147%2C222%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=42px&dsblur=68px&wc=true&wa=true&pv=30px&ph=62px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520badge%2520on%2520avatar%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponents%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-medium%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponents%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-small%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar%2520avatar-extra-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponents%252Fassets%252Favatar.svg%2522%2520alt%253D%2522an%2520avatar%2520image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-extra-small%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-    style="width: 800px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-    sandbox="allow-scripts allow-same-origin">
-  </iframe>
-    
-    
-
-    <h2 class="component-name">Badge on Icons</h2>
-    <div class="component-wrapper">
-        <!-- badge on icons -->
-        <div class="icons">
-            <span  class="fa fa-bell"></span>
-            <div class="badge-icon">2</div>
-        </div>
-        <div class="icons">
-            <span  class="fa fa-envelope"></span>
-            <div class="badge-icon">22</div>
-        </div>
-        <div class="icons">
-            <span  class="fa fa-car"></span>
-            <div class="badge-icon">+2</div>
-        </div>
-        <div class="icons">
-            <span  class="fa fa-comment"></span>
-            <div class="badge-icon">122</div>
-        </div>
-        <div class="icons">
-            <span  class="fa fa-phone"></span>
-            <div class="badge-icon">22</div>
-        </div>
-    </div>
-        
-    <iframe
-    src="https://carbon.now.sh/embed?bg=rgba%2874%2C147%2C222%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=42px&dsblur=68px&wc=true&wa=true&pv=30px&ph=62px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520badge%2520on%2520icons%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522fa%2520fa-bell%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522fa%2520fa-envelope%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E22%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522fa%2520fa-car%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E%252B2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522fa%2520fa-comment%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E122%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%2520class%253D%2522fa%2520fa-phone%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E22%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-    style="width: 800px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-    sandbox="allow-scripts allow-same-origin">
-  </iframe>
-    
-    
+    <nav>
+        <div class="left-nav">Vee UI</div>
+        <ul class="right-nav">
+            <li>Docs</li>
+            <li>GitHub</li>
+        </ul>
+    </nav>
+    <header>
+        <img class="hero-img" src="/components/assets/hero-image.svg" alt="hero image">
+        <h1 class="hero-heading">Vee UI Components</h1>
+        <h2 class="subheading">Quickly design and customize websites with <span style="color: purple;">Vee UI</span></h2>
+        <section class="button-section">
+            <button class="btn btn-primary"><a href="/home.html">Get Started</a></button>
+            <button class="btn btn-secondary">GitHub</button>
+        </section>
+    </header>
+    <footer>
+        <h2 class="subheading ">Made with ♥ by <span>Veeresh B V</span> </h2>
+        <ul class="footer-ul">
+            <li>LinkedIn</li>
+            <li>GitHub</li>
+            <li>Twitter</li>
+        </ul>
+    </footer>
 </body>
 </html>

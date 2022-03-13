@@ -1,0 +1,126 @@
+@import url("/root.css");
+
+/* 
+Cards with badges
+Cards with dismiss
+Cards with text overlay
+Text only cards
+Vertical/Horizontal cards
+Cards with shadow
+ */
+
+.card{
+    background-color: rgb(117, 201, 250);
+    padding: 10px;
+    display: flex;
+    border-radius: 8px;
+    border:2px solid blue;
+    position:relative;
+}
+
+.card-horizontal{
+    max-width: 30rem;
+    min-height: 10rem;
+    flex-direction: row;
+    
+}
+
+ .img-horizontal{
+  
+     width: 40%;
+     object-fit: cover;
+     border-radius: 8px;
+ }
+
+ .card-content{
+     display: flex;
+     flex-direction: column;
+     padding:0rem 1rem;
+ }
+ 
+ .card-title{
+     font-size: 2rem;
+     color: blue;
+     
+ }
+
+ .card-description{
+     line-height: 1.5rem;
+     opacity: 0.8;
+     margin:  0.5rem;
+     text-align: justify;
+ }
+
+ .card-footer{
+     font-size: 1.5rem;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blue;
+    
+ }
+
+ .icon:hover{
+    cursor: pointer;
+ }
+
+ .icon:active{
+     color: red;
+ }
+ 
+
+ .card-badge{
+     position: absolute;
+     background-color: yellow;
+     float: left;
+     padding: 6px;
+     border-top-left-radius: 8px;
+     border-bottom-right-radius: 8px;
+ }
+
+
+ .card-vertical{
+     flex-direction: column;
+     max-width: 20rem;
+     min-height: 20rem;
+
+    
+ }
+
+ .img-vertical{
+    width: 100%;
+    border-radius: 8px;
+ }
+
+.shadow{
+    box-shadow: 18px 18px 8px grey;
+}
+
+.dismiss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+
+.close{
+    color:red;
+ 
+    cursor: pointer;
+    padding-left:2rem ;
+}
+
+.overlay-div{
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 14rem;
+    overflow-wrap: break-word;
+   font-size: 2rem;
+   padding: 1rem;
+    color: white;
+    
+    background-color: rgba(3, 37, 37, 0.336);
+}
