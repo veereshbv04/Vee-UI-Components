@@ -41,7 +41,7 @@ Cards with shadow
  .card-title{
      font-size: 2rem;
      color: blue;
-     
+     margin:0rem;
  }
 
  .card-description{
@@ -82,7 +82,7 @@ Cards with shadow
  .card-vertical{
      flex-direction: column;
      max-width: 20rem;
-     min-height: 20rem;
+     min-height: 30rem;
 
     
  }
