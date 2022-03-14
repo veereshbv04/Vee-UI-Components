@@ -71,7 +71,7 @@ Cards with shadow
 
  .card-badge{
      position: absolute;
-     background-color: yellow;
+     background-color: green;
      float: left;
      padding: 6px;
      border-top-left-radius: 8px;
