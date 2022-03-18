@@ -1,69 +1,68 @@
-
 @import url("/root.css");
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
-    
- }
 
- /* -------------------------------------avatar styling */
-.avatar{
+}
+
+/* -------------------------------------avatar styling */
+.avatar {
     position: relative;
     margin: 2rem;
 }
 
-.avater-extra-large{
-   max-height: 17rem;
+.avater-extra-large {
+    max-height: 17rem;
     max-width: 17rem;
 
 }
 
-.avatar-large{
+.avatar-large {
     max-height: 14rem;
     max-width: 14rem;
 }
 
-.avatar-medium{
+.avatar-medium {
     max-height: 10rem;
     max-width: 10rem;
-  
+
 }
 
-.avatar-small{
+.avatar-small {
     max-height: 5rem;
     max-width: 5rem;
 }
 
 
-.avatar-extra-small{
+.avatar-extra-small {
     max-height: 3rem;
     max-width: 3rem;
 
 }
 
 /* ----------------------------------------Badge styling */
-.badge{
+.badge {
     position: absolute;
     bottom: 0rem;
     right: 0rem;
 }
 
-.badge-medium{
+.badge-medium {
     background-color: #59e627;
     height: 2rem;
     width: 2rem;
     border-radius: 15rem;
 }
 
-.badge-small{
+.badge-small {
     background-color: red;
     height: 2rem;
     width: 2rem;
     border-radius: 15rem;
 }
 
-.badge-extra-small{
+.badge-extra-small {
     background-color: grey;
     height: 0.8rem;
     width: 0.8rem;
@@ -71,13 +70,13 @@ img{
 }
 
 /* -------------------------------material icon styling */
-.icons{
+.icons {
     font-size: 3rem;
     position: relative;
     margin: 2rem;
 }
 
-.badge-icon{
+.badge-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,5 +90,5 @@ img{
     font-size: 15px;
     color: yellow;
     text-align: center;
-   
+
 }

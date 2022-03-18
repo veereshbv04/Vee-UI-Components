@@ -1,14 +1,15 @@
 @import url("/root.css");
 
-button{
+button {
     border: none;
 }
 
-.btn{
-    
+.btn {
+
     padding: 0.8rem 2.5rem;
     color: white;
-    border-radius:  8px; ;
+    border-radius: 8px;
+    ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     cursor: pointer;
@@ -16,79 +17,83 @@ button{
 }
 
 /* ------------------------------button hover */
-button:hover{
-    box-shadow:5px 12px 18px rgb(180, 175, 175);
+button:hover {
+    box-shadow: 5px 12px 18px rgb(180, 175, 175);
 }
 
 /* ------------------------------solid button styling */
-.btn-primary{
-    background-color:blue ;
+.btn-primary {
+    background-color: blue;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: grey;
 }
 
-.btn-danger{
+.btn-danger {
     background-color: red;
 }
 
-.btn-disabled{
+.btn-disabled {
     background-color: rgb(192, 184, 184);
     cursor: no-drop;
 }
 
 /* ------------------------------outlined button styling */
-.btn-primary-outl{
-    color:blue ;
+.btn-primary-outl {
+    color: blue;
     border: 2px solid blue;
 }
-.btn-primary-outl:hover{
-    background-color:blue ;
+
+.btn-primary-outl:hover {
+    background-color: blue;
     color: white;
 }
 
-.btn-secondary-outl{
+.btn-secondary-outl {
     color: grey;
     border: 2px solid grey;
 }
-.btn-secondary-outl:hover{
+
+.btn-secondary-outl:hover {
     background-color: grey;
     color: white;
 }
 
-.btn-danger-outl{
+.btn-danger-outl {
     color: red;
     border: 2px solid red;
 }
-.btn-danger-outl:hover{
+
+.btn-danger-outl:hover {
     background-color: red;
     color: white;
 }
 
-.btn-disabled-outl{
+.btn-disabled-outl {
     color: rgb(192, 184, 184);
     border: 2px solid rgb(192, 184, 184);
     cursor: no-drop;
 }
 
-.btn-disabled-outl:hover{
+.btn-disabled-outl:hover {
     background-color: rgb(192, 184, 184);
     color: white;
     cursor: no-drop;
 }
 
 /* -----------------------------------icon button */
-.btn-icon{
+.btn-icon {
     color: grey;
     cursor: pointer;
 }
-.btn-icon:active{
+
+.btn-icon:active {
     color: red;
 }
 
 /* --------------------------------float button */
-.float{
+.float {
     height: 3rem;
     width: 3rem;
     display: flex;
@@ -101,7 +106,7 @@ button:hover{
     cursor: pointer;
 }
 
-.float:hover{
+.float:hover {
     /* height: 3.5rem;
     width: 3.5rem; */
     transform: scale(1.2, 1.2);

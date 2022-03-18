@@ -1,36 +1,36 @@
-:root{
-    --primary-color:rgba(20, 182, 247, 0.767);
-    --wrapper-background-color:rgb(170, 244, 253);
+:root {
+    --primary-color: rgba(20, 182, 247, 0.767);
+    --wrapper-background-color: rgb(170, 244, 253);
     scroll-behavior: smooth;
-    --component-text-color : rgb(87, 72, 72);
-    --nav-heading-color:rgb(88, 57, 201);
+    --component-text-color: rgb(87, 72, 72);
+    --nav-heading-color: rgb(88, 57, 201);
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-.component-name{
+.component-name {
     margin: 0rem 1rem;
     padding: 0.5rem;
     background-color: rgb(7, 211, 247);
     color: var(--component-text-color)
 }
 
-.component-name-title{
+.component-name-title {
     background-color: rgb(44, 203, 214);
     padding: 0 2rem;
     border-radius: 1rem;
-    color:purple;
+    color: purple;
     font-size: 1.6rem;
 }
 
-.component-wrapper{
+.component-wrapper {
     background-color: var(--wrapper-background-color);
     margin: 1rem;
     margin-top: 0;
@@ -42,5 +42,3 @@
     gap: 2rem;
 
 }
-
-
