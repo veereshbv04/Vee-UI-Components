@@ -56,9 +56,12 @@ li{
     text-align: center;
 
 }
-a{
+button a{
     text-decoration: none;
     color: white;
+}
+footer a{
+    text-decoration: none;
 }
 footer{
     margin: auto;
